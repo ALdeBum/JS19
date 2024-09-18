@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    background-color: #ffeaa7;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input, select, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+input, select {
+    flex: 1;
+    font-size: 16px;
+}
+
+button {
+    background-color: #00cec9;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00b894;
+}
+
+.movie {
+    display: flex;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.movie:hover {
+    transform: translateY(-5px);
+}
+
+.movie img {
+    max-width: 120px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.movie-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-info h2 {
+    margin: 0 0 10px;
+    color: #2d3436;
+}
+
+.movie-info button {
+    padding: 8px 12px;
+    background-color: #fdcb6e;
+    color: #2d3436;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.movie-info button:hover {
+    background-color: #e17055;
+    color: #fff;
+}
+
+.pagination {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.loader {
+    font-size: 18px;
+    font-weight: bold;
+}
